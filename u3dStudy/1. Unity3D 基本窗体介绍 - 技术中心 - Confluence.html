@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://wiki.info/pages/viewpage.action?pageId=10422526 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                            <title>1. Unity3D 基本窗体介绍 - 技术中心 - Confluence</title>
+    
+        
+
+                        
+    
+                        
+    
+
+                
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+
+<meta id="confluence-context-path" name="confluence-context-path" content="">
+<meta id="confluence-base-url" name="confluence-base-url" content="http://wiki.info">
+
+<meta id="atlassian-token" name="atlassian-token" content="cfbed5e294204a62e32b32941cf0312482ddc72b">
+
+
+<meta id="confluence-space-key" name="confluence-space-key" content="tech">
+<script type="text/javascript">
+        var contextPath = '';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1500019669659">
+        
+    
+        
+            <meta name="ajs-show-space-welcome-dialog" content="true">
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 285px;}.theme-default .ia-splitter #main {margin-left: 285px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="{&quot;com.atlassian.confluence.plugins.confluence-dashboard&quot;:[&quot;transition-saved-for-later&quot;]}">
+            <meta name="stp-license-product-name" content="Confluence"> <meta name="stp-license-days-to-expiry" content="30119"> <meta name="stp-license-is-admin" content="false"> <meta name="stp-license-should-keep-banner-hidden" content="true">
+            <meta name="ajs-keyboardshortcut-hash" content="8f374caf75c9d12cb7a9c70195187cb0">
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="10000">
+            
+    
+    
+            <meta name="ajs-page-id" content="10422526">
+            <meta name="ajs-latest-page-id" content="10422526">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-page-title" content="1. Unity3D 基本窗体介绍">
+            <meta name="ajs-latest-published-page-title" content="1. Unity3D 基本窗体介绍">
+            <meta name="ajs-parent-page-title" content="新人培训">
+            <meta name="ajs-parent-page-id" content="10422125">
+            <meta name="ajs-space-key" content="tech">
+            <meta name="ajs-space-name" content="技术中心">
+            <meta name="ajs-jira-metadata-count" content="0">
+            <meta name="ajs-from-page-title" content="">
+            <meta name="ajs-can-remove-page" content="false">
+            <meta name="ajs-can-remove-page-hierarchy" content="false">
+            <meta name="ajs-browse-page-tree-mode" content="view">
+            <meta name="ajs-shared-drafts" content="true">
+            <meta name="ajs-user-display-name" content="卢宇浩">
+            <meta name="ajs-context-path" content="">
+            <meta name="ajs-base-url" content="http://wiki.info">
+            <meta name="ajs-version-number" content="6.2.2">
+            <meta name="ajs-build-number" content="7201">
+            <meta name="ajs-remote-user" content="luyuhao">
+            <meta name="ajs-remote-user-key" content="8a9181a85cc6080d015d2a60c13a0027">
+            <meta name="ajs-remote-user-has-licensed-access" content="true">
+            <meta name="ajs-current-user-fullname" content="卢宇浩">
+            <meta name="ajs-current-user-avatar-url" content="/download/attachments/10428194/user-avatar">
+            <meta name="ajs-current-user-avatar-uri-reference" content="/download/attachments/10428194/user-avatar">
+            <meta name="ajs-static-resource-url-prefix" content="/s/zh_CN/7201/3d89a43db3618502ceb73a83aa0af888aa0a285a/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="104857600">
+            <meta name="ajs-user-locale" content="zh_CN">
+            <meta name="ajs-enabled-dark-features" content="site-wide.shared-drafts,site-wide.synchrony,confluence.view.edit.transition,confluence-inline-comments-resolved,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareContentEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.mentions.api.ConfluenceMentionEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.security.ForgotPasswordEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.tasklist.event.SendTaskEmailEvent,file-annotations,confluence.efi.onboarding.rich.space.content,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.requestaccess.events.AccessGrantedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.PageMoveEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.follow.FollowEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentReplyEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostCreateEvent,confluence.table.resizable,notification.batch,confluence-inline-comments-rich-editor,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostUpdateEvent,site-wide.synchrony.opt-in,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentMentionUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.hipchat.api.events.HipChatUserMapped,quick-reload-inline-comments-flags,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostMovedEvent,clc.quick.create,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.PageUpdateEvent,cql.search.screen,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,pdf-preview,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageMovedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareCustomEvent,previews.sharing,previews.versions,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.attachment.AttachmentBatchUploadCompletedEvent,collaborative-audit-log,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingLessUsersEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentRemoveEvent,confluence.wrap.macro,previews.conversion-service,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentUpdateEvent,editor.ajax.save,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageEditedEvent,previews.trigger-all-file-types,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentResolveEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.like.LikeCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.requestaccess.events.AccessRequestedEvent,previews.sharing.pushstate,file-annotations.likes,collaborative.editing.frictionless.upgrade,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.PageCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingNoSpaceCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareDraftEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareAttachmentEvent,confluence-inline-comments,confluence-inline-comments-dangling-comment">
+            <meta name="ajs-atl-token" content="cfbed5e294204a62e32b32941cf0312482ddc72b">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="yyyy-M-d">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="http://wiki.info/s/zh_CN/7201/3d89a43db3618502ceb73a83aa0af888aa0a285a/5/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="http://wiki.info/s/zh_CN/7201/3d89a43db3618502ceb73a83aa0af888aa0a285a/5/_/favicon.ico">
+
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.info/opensearch/osd.action" title="Confluence">
+    
+                    
+            <meta name="ajs-create-issue-metadata-show-discovery" content="true">
+            
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\u0022\u0022";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\u0022entries\u0022:{\u0022applinks.docs.root\u0022:\u0022https://confluence.atlassian.com/display/APPLINKS-052/\u0022,\u0022applinks.docs.diagnostics.troubleshoot.sslunmatched\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.delete.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.adding.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administration.guide\u0022:\u0022Application+Links+Documentation\u0022,\u0022applinks.docs.oauth.security\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.troubleshoot.application.links\u0022:\u0022Troubleshoot+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownerror\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.trusted.apps\u0022:\u0022Configuring+Trusted+Applications+authentication+for+an+application+link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelunsupported\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.ssluntrusted\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownhost\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.delete.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.link.applications\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthproblem\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.migration\u0022:\u0022Update+application+links+to+use+OAuth\u0022,\u0022applinks.docs.relocate.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administering.entity.links\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.upgrade.application.link\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.connectionrefused\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.oauth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.insufficient.remote.permission\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.configuring.application.link.auth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics\u0022:\u0022Application+links+diagnostics\u0022,\u0022applinks.docs.configured.authentication.types\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.adding.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unexpectedresponse\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.basic\u0022:\u0022Configuring+Basic+HTTP+Authentication+for+an+Application+Link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelmismatch\u0022:\u0022OAuth+troubleshooting+guide\u0022}}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\u0022crowd\u0022:\u0022\u4eba\u7fa4\u0022,\u0022confluence\u0022:\u0022\u6c47\u5408\u3002\u0022,\u0022fecru\u0022:\u0022\u9c7c\u773c/\u7194\u7089\u3002\u0022,\u0022stash\u0022:\u0022Bitbucket\u670d\u52a1\u5668\u0022,\u0022jira\u0022:\u0022JIRA\u0022,\u0022refapp\u0022:\u0022\u76f8\u5173\u5e94\u7528\u7a0b\u5e8f\u0022,\u0022bamboo\u0022:\u0022\u7af9\u0022,\u0022generic\u0022:\u0022\u901a\u7528\u5e94\u7528\u7a0b\u5e8f\u0022}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\u0022singular\u0022:{\u0022refapp.charlie\u0022:\u0022Charlie\u0022,\u0022fecru.project\u0022:\u0022Crucible\u9879\u76ee\u0022,\u0022fecru.repository\u0022:\u0022FishEye\u7248\u672c\u5e93\u0022,\u0022stash.project\u0022:\u0022Bitbucket\u670d\u52a1\u5668\u9879\u76ee\u0022,\u0022generic.entity\u0022:\u0022\u901a\u7528\u9879\u76ee\u0022,\u0022confluence.space\u0022:\u0022Confluence\u7a7a\u95f4\u0022,\u0022bamboo.project\u0022:\u0022Bamboo\u9879\u76ee\u0022,\u0022jira.project\u0022:\u0022JIRA\u9879\u76ee\u0022},\u0022plural\u0022:{\u0022refapp.charlie\u0022:\u0022\u67e5\u7406\u65af\u0022,\u0022fecru.project\u0022:\u0022Crucible\u9879\u76ee\u0022,\u0022fecru.repository\u0022:\u0022FishEye\u50a8\u5b58\u5e93\u0022,\u0022stash.project\u0022:\u0022Bitbucket\u670d\u52a1\u5668\u9879\u76ee\u0022,\u0022generic.entity\u0022:\u0022\u901a\u7528\u9879\u76ee\u0022,\u0022confluence.space\u0022:\u0022Confluence\u7a7a\u95f4\u0022,\u0022bamboo.project\u0022:\u0022Bamboo\u9879\u76ee\u0022,\u0022jira.project\u0022:\u0022\u591a\u4e2aJIRA\u9879\u76ee\u0022}}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\u0022com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\u0022:\u0022\u57fa\u672c\u8bbf\u95ee\u0022,\u0022com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\u0022:\u0022\u4fe1\u4efb\u7684\u5e94\u7528\u65e0\u6548\u0022,\u0022com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\u0022:\u0022\u6b4c\u73e5\u0022,\u0022com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\u0022:\u0022Oauth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\u0022:\u0022Oauth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\u0022:\u0022Oauth\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.synchrony-interop:synchrony-status-banner-loader.synchrony-status"]="false";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\u0022daysBeforeLicenseExpiry\u0022:0,\u0022daysBeforeMaintenanceExpiry\u0022:0,\u0022showLicenseExpiryBanner\u0022:false,\u0022showMaintenanceExpiryBanner\u0022:false,\u0022renewUrl\u0022:null,\u0022salesEmail\u0022:null}";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link type="text/css" rel="stylesheet" href="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch.css" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/e6a993fbd5f9a96d7f9e250269edb793-CDN/zh_CN/7201/3d89a43db3618502ceb73a83aa0af888aa0a285a/84659ac4c1e45bd2d0be562d3fdacb4d/_/download/contextbatch/css/_super/batch.css?conditionalComment=lt+IE+9" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<![endif]-->
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/e6a993fbd5f9a96d7f9e250269edb793-CDN/zh_CN/7201/3d89a43db3618502ceb73a83aa0af888aa0a285a/84659ac4c1e45bd2d0be562d3fdacb4d/_/download/contextbatch/css/_super/batch.css?conditionalComment=lte+IE+9" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch(1).css" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,page,atl.general,atl.comments,-_super" data-wrm-batch-type="context" media="all">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/dd2dc8a6a33687b379f73333dcafa9f3-CDN/zh_CN/7201/3d89a43db3618502ceb73a83aa0af888aa0a285a/385437bc199aea4993ee39069b975f7a/_/download/contextbatch/css/atl.confluence.plugins.pagetree-desktop,main,viewcontent,page,atl.general,atl.comments,-_super/batch.css?analytics-enabled=true&amp;analytics-uploadable=true&amp;conditionalComment=lt+IE+9&amp;confluence.table.resizable=true&amp;confluence.view.edit.transition=true&amp;highlightactions=true&amp;hostenabled=true&amp;is-server-instance=true&amp;nps-acknowledged=true" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,page,atl.general,atl.comments,-_super" data-wrm-batch-type="context" media="all">
+<![endif]-->
+<script type="text/javascript" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch.js.下载" data-wrm-key="_super" data-wrm-batch-type="context"></script><style type="text/css"></style><style type="text/css"></style>
+<script type="text/javascript" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch.js(1).下载" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,page,atl.general,atl.comments,-_super" data-wrm-batch-type="context"></script>
+
+    
+        
+            <meta name="stp-license-product-name" content="Confluence"> <meta name="stp-license-days-to-expiry" content="30119"> <meta name="stp-license-is-admin" content="false"> <meta name="stp-license-should-keep-banner-hidden" content="true">
+    
+
+        
+        <meta name="ajs-site-title" content="Confluence">
+            
+    
+
+    
+                <link rel="canonical" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+        <link rel="shortlink" href="http://wiki.info/x/-gif">
+    <meta name="wikilink" content="[tech:1. Unity3D 基本窗体介绍]">
+    <meta name="page-version" content="12">
+    <meta name="ajs-page-version" content="12">
+
+<script type="text/javascript" charset="utf-8" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch.js(2).下载"></script><link rel="stylesheet" type="text/css" href="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch(2).css"><script type="text/javascript" charset="utf-8" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch.js(3).下载"></script><link rel="stylesheet" type="text/css" href="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch(3).css"><script type="text/javascript" charset="utf-8" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch.js(4).下载"></script><link rel="stylesheet" type="text/css" href="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch(4).css"><script type="text/javascript" charset="utf-8" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/batch.js(5).下载"></script></head>
+
+    
+<body id="com-atlassian-confluence" class="theme-default  aui-layout aui-theme-default" data-aui-version="6.0.6">
+
+        
+            <div id="stp-licenseStatus-banner"></div>
+    <ul id="assistive-skip-links" class="assistive">
+    <li><a href="http://wiki.info/pages/viewpage.action?pageId=10422526#title-heading">转至内容</a></li>
+    <li><a href="http://wiki.info/pages/viewpage.action?pageId=10422526#breadcrumbs">转至导航栏</a></li>
+    <li><a href="http://wiki.info/pages/viewpage.action?pageId=10422526#header-menu-bar">转至主菜单</a></li>
+    <li><a href="http://wiki.info/pages/viewpage.action?pageId=10422526#navigation">转至动作菜单</a></li>
+    <li><a href="http://wiki.info/pages/viewpage.action?pageId=10422526#quick-search-query">转至快速搜索</a></li>
+</ul>
+<div id="page">
+<div id="full-height-container">
+    <div id="header-precursor">
+        <div class="cell">
+            
+                            </div>
+    </div>
+            
+
+
+
+
+
+<header id="header" role="banner" class="fixed-header">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation" data-aui-responsive="true"><div class="aui-header-inner"><div class="aui-header-before"><a class=" aui-dropdown2-trigger app-switcher-trigger" aria-controls="app-switcher" aria-haspopup="true" role="button" tabindex="0" data-aui-trigger="" href="http://wiki.info/pages/viewpage.action?pageId=10422526#app-switcher" resolved="" aria-expanded="false"><span class="aui-icon aui-icon-small aui-iconfont-appswitcher">已链接应用程序</span></a><div id="app-switcher" class="aui-dropdown2 aui-style-default aui-layer" role="menu" aria-hidden="true" data-is-switcher="true" data-environment="{&quot;isUserAdmin&quot;:false,&quot;isAppSuggestionAvailable&quot;:false,&quot;isSiteAdminUser&quot;:false}" resolved=""><div class="aui-dropdown2-section"><ul class="nav-links"><li class="nav-link"><a href="http://jira.info/secure/MyJiraHome.jspa" class="aui-dropdown2-radio " title="http://jira.info/secure/MyJiraHome.jspa" resolved="" aria-checked="false" tabindex="0"><span class="nav-link-label">Baioo JIRA</span></a></li><li class="nav-link nav-link-local"><a href="http://wiki.info/" class="aui-dropdown2-radio aui-dropdown2-checked checked" title="http://wiki.info/" resolved="" aria-checked="true" tabindex="0"><span class="nav-link-label">Confluence</span></a></li></ul></div></div></div><div class="aui-header-primary"><h1 id="logo" class="aui-header-logo aui-header-logo-confluence"><a href="http://wiki.info/"><span class="aui-header-logo-device">Confluence</span></a></h1><ul class="aui-nav" resolved="" style="width: auto;">
+                            <li>
+            
+        
+        
+<a id="space-menu-link" class=" aui-dropdown2-trigger aui-nav-link" aria-controls="space-menu-link-content" aria-haspopup="true" role="button" title="空间" tabindex="0" data-aui-trigger="" resolved="" aria-expanded="false" href="http://wiki.info/pages/viewpage.action?pageId=10422526#space-menu-link-content">空间<span class="icon aui-icon-dropdown"></span></a><div id="space-menu-link-content" class="aui-dropdown2 aui-style-default aui-dropdown2-in-header aui-layer" role="menu" aria-hidden="true" resolved=""><div role="application"></div></div>
+        </li>
+                    <li>
+            
+    
+        
+<a id="people-directory-link" href="http://wiki.info/browsepeople.action" class=" aui-nav-imagelink" title="人员">
+            <span>人员</span>
+    </a>
+        </li>
+                                        <li class="aui-buttons">
+                                    
+                                        <a href="http://wiki.info/pages/createpage.action?spaceKey=tech&amp;fromPageId=10422526&amp;src=quick-create" id="quick-create-page-button" class="aui-button aui-button-primary" title="创建空白页 (c)" tabindex="0">创建</a>
+                                <a href="http://wiki.info/pages/createpage.action?spaceKey=tech&amp;fromPageId=10422526" id="create-page-button" class="aui-button aui-button-primary clc-create-dialog-btn" title="从模板创建" tabindex="0"><span class="aui-icon aui-icon-small aui-iconfont-more">创建 </span></a>
+            </li>
+    </ul>
+</div><div class="aui-header-secondary"><ul class="aui-nav" resolved="">
+                        <li>
+        <form id="quick-search" class="aui-quicksearch dont-default-focus header-quicksearch" action="http://wiki.info/dosearchsite.action" method="get"><fieldset><label for="quick-search-query" class="assistive">快速搜索</label><input id="quick-search-query" class="text app-search search quick-search-query" type="text" accesskey="q" autocomplete="off" name="queryString" title="快速搜索 (/或者g ，g)"><input id="quick-search-submit" class="quick-search-submit" type="submit" value="搜索"><div class="aui-dd-parent quick-nav-drop-down"></div></fieldset></form>
+    </li>
+        <li>
+            
+        <a id="help-menu-link" class="aui-nav-link aui-dropdown2-trigger" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" aria-haspopup="true" title="帮助" resolved="" aria-controls="help-menu-link-content" aria-expanded="false">
+        <span class="aui-icon aui-icon-small aui-iconfont-help">帮助</span>
+    </a>
+    <nav id="help-menu-link-content" class="aui-dropdown2 aui-style-default aui-layer" aria-hidden="true" resolved="">
+                    <div class="aui-dropdown2-section">
+                                <ul id="help-menu-link-leading" class="aui-list-truncate section-leading first">
+                                            <li>
+        
+            
+<a id="confluence-help-link" href="https://docs.atlassian.com/confluence/docs-62/" class="    " title="访问Confluence文档首页" target="_blank">
+        在线帮助
+</a>
+</li>
+                                            <li>
+    
+                
+<a id="keyboard-shortcuts-link" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" class="    " title="查看可用的键盘快捷方式 (?)">
+        快捷键
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="feed-builder-link" href="http://wiki.info/dashboard/configurerssfeed.action" class="    " title="创建个性化的 RSS源。">
+        RSS源建立器
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="whats-new-menu-link" href="https://confluence.atlassian.com/display/DOC/Confluence+6.2+Release+Notes?a=false" class="    " title="">
+        新功能
+</a>
+</li>
+                                            <li>
+    
+                
+<a id="gadget-directory-link" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" class="   user-item administration-link " title="浏览小工具">
+        可用的小工具
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="confluence-about-link" href="http://wiki.info/aboutconfluencepage.action" class="    " title="获取关于Confluence的更多信息">
+        关于Confluence
+</a>
+</li>
+                                    </ul>
+            </div>
+            </nav>
+    
+    </li>
+        <li>
+                
+    
+    </li>
+        <li>
+                    
+        
+            
+<a id="notifications-anchor" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" class="mw-anchor read aui-nav-imagelink" title="打开通知 (g ，n)"><div class="badge-i aui-icon aui-icon-small aui-iconfont-workbox-empty"></div><span class="badge-w"><span class="badge">0</span></span></a>
+    
+    </li>
+        <li>
+                                            
+        <a id="user-menu-link" class="aui-dropdown2-trigger " aria-haspopup="true" data-username="luyuhao" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" title="卢宇浩" resolved="" aria-controls="user-menu-link-content" aria-expanded="false">
+                    <div class="aui-avatar aui-avatar-small">
+                <div class="aui-avatar-inner">
+                                                                                                    <img src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/user-avatar">
+                </div>
+            </div>
+            <span class="aui-icon-dropdown"></span>
+        </a>
+        <nav id="user-menu-link-content" class="aui-dropdown2 aui-style-default aui-layer" aria-hidden="true" resolved="">
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-preferences" class="aui-list-truncate section-user-preferences first">
+                                                    <li>
+        
+            
+<a id="view-user-history-link" href="http://wiki.info/users/viewuserhistory.action" class="   user-item user-history popup-link " title=" (g ，r)">
+        最近浏览
+</a>
+</li>
+                                            </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-content" class="aui-list-truncate section-user-content">
+                                                    <li>
+    
+            
+<a id="view-user-profile-link" href="http://wiki.info/users/viewmyprofile.action" class="   user-item user-profile " title="">
+        用户信息
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="view-mytasks-link" href="http://wiki.info/plugins/inlinetasks/mytasks.action" class="   user-item list-user-status " title="">
+        任务
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-favourites-link" href="http://wiki.info/users/viewmyfavourites.action" class="   user-item " title="">
+        收藏夹 
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-watches-link" href="http://wiki.info/users/viewnotifications.action" class="   user-item " title="">
+        关注
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-drafts-link" href="http://wiki.info/users/viewmydrafts.action" class="   user-item " title="">
+        草稿
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-network-link" href="http://wiki.info/users/viewfollow.action?username=luyuhao" class="   follow-link " title="">
+        网络
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-settings-link" href="http://wiki.info/users/viewmysettings.action" class="   user-item " title="">
+        设置
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="upm-requests-link" href="http://wiki.info/plugins/servlet/upm/requests?source=header_user" class="    " title="">
+        Atlassian Marketplace
+</a>
+</li>
+                                            </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-operations" class="aui-list-truncate section-user-operations">
+                                                    <li>
+    
+            
+<a id="logout-link" href="http://wiki.info/logout.action" class="   user-item logout-link " title="">
+        注销
+</a>
+</li>
+                                            </ul>
+                </div>
+                    </nav>
+                    
+    </li>
+    </ul>
+</div></div><!-- .aui-header-inner--></nav><!-- .aui-header -->
+    <br class="clear">
+</header>
+    
+
+    
+    	<div class="ia-splitter">
+    		<div class="ia-splitter-left">
+    			<div class="ia-fixed-sidebar" style="width: 285px; visibility: visible; top: 41px; left: 0px;">
+                                            
+                            <div class="acs-side-bar ia-scrollable-section"><div class="acs-side-bar-space-info tipsy-enabled" data-configure-tooltip="编辑空间详情"><div class="avatar"><div class="space-logo" data-key="tech" data-name="技术中心" data-entity-type="confluence.space"><div class="avatar-img-container"><div class="avatar-img-wrapper"><a href="http://wiki.info/pages/viewpage.action?pageId=1507342&amp;src=sidebar" title="技术中心"><img class="avatar-img" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/default-space-logo-256.png" alt="技术中心"></a></div></div></div></div><div class="space-information-container"><div class="name"><a href="http://wiki.info/pages/viewpage.action?pageId=1507342&amp;src=sidebar" title="技术中心">技术中心</a></div><div class="flyout-handle icon"></div><div class="favourite-space-icon"><button title="收藏空间" id="space-favourite-add" class="space-favourite aui-icon aui-icon-small aui-iconfont-unstar"></button><button class=" space-favourite-hidden  space-favourite aui-icon aui-icon-small aui-iconfont-star" id="space-favourite-remove" title="取消收藏"></button></div></div></div><div class="acs-side-bar-content"><div class="acs-nav-wrapper"><div class="acs-nav" data-has-create-permission="true" data-quick-links-state="null" data-page-tree-state="null" data-nav-type="page-tree"><div class="acs-nav-sections"><div class="main-links-section "><ul class="acs-nav-list"><li class="acs-nav-item wiki current-item" data-collector-key="spacebar-pages"><a class="acs-nav-item-link tipsy-enabled" href="http://wiki.info/collector/pages.action?key=tech&amp;src=sidebar" data-collapsed-tooltip="页面"><span class="icon"></span><span class="acs-nav-item-label">页面</span></a></li><li class="acs-nav-item blog" data-collector-key="spacebar-blogs"><a class="acs-nav-item-link tipsy-enabled" href="http://wiki.info/pages/viewrecentblogposts.action?key=tech&amp;src=sidebar" data-collapsed-tooltip="博文"><span class="icon"></span><span class="acs-nav-item-label">博文</span></a></li></ul></div><div class="quick-links-wrapper"><h5 class="ia-quick-links-header-title">空间快捷链接</h5><div class="quick-links-section tipsy-enabled " data-collapsed-tooltip="空间快捷链接"><ul class="acs-nav-list"><li class="acs-nav-item external_link"><a class="acs-nav-item-link tipsy-enabled" href="http://zentao.bt/" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">禅道 - 项目管理</span></a></li><li class="acs-nav-item external_link"><a class="acs-nav-item-link tipsy-enabled" href="https://gitlab.bt/explore/groups" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">Gitlab - 源代码管理器</span></a></li></ul></div></div></div></div></div><div class="ia-secondary-container tipsy-enabled" data-tree-type="page-tree"><div class="ia-secondary-header"><h5 class="ia-secondary-header-title page-tree"><span class="icon"></span><span class="label">页面树结构</span></h5></div><div class="ia-secondary-content">
+
+
+<div class="plugin_pagetree conf-macro output-inline" data-hasbody="false" data-macro-name="pagetree">
+
+        
+        
+    <ul class="plugin_pagetree_children_list plugin_pagetree_children_list_noleftspace">
+        <div class="plugin_pagetree_children" id="children1507342-0">
+<ul class="plugin_pagetree_children_list" id="child_ul1507342-0">
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus1508851-0" class="plugin_pagetree_childtoggle icon icon-section-opened" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan1508851-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=1508851&amp;src=contextnavpagetreemode">方案与文档</a>
+        </span>
+            </div>
+
+        <div id="children1508851-0" class="plugin_pagetree_children_container">
+                                                        <ul class="plugin_pagetree_children_list" id="child_ul1508851-0">
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus1509026-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan1509026-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=1509026&amp;src=contextnavpagetreemode">服务器解决方案</a>
+        </span>
+            </div>
+
+        <div id="children1509026-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus2918895-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan2918895-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=2918895&amp;src=contextnavpagetreemode">业务解决方案</a>
+        </span>
+            </div>
+
+        <div id="children2918895-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus2917542-0" class="plugin_pagetree_childtoggle icon icon-section-opened" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan2917542-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=2917542&amp;src=contextnavpagetreemode">Unity3D解决方案</a>
+        </span>
+            </div>
+
+        <div id="children2917542-0" class="plugin_pagetree_children_container">
+                                                        <ul class="plugin_pagetree_children_list" id="child_ul2917542-0">
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus4759163-0" class="plugin_pagetree_childtoggle icon icon-section-opened" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan4759163-0">                        <a href="http://wiki.info/display/tech/AoUnity?src=contextnavpagetreemode">AoUnity</a>
+        </span>
+            </div>
+
+        <div id="children4759163-0" class="plugin_pagetree_children_container">
+                                                        <ul class="plugin_pagetree_children_list" id="child_ul4759163-0">
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus4759175-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan4759175-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=4759175&amp;src=contextnavpagetreemode">规范文档</a>
+        </span>
+            </div>
+
+        <div id="children4759175-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus4759173-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan4759173-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=4759173&amp;src=contextnavpagetreemode">技术分享</a>
+        </span>
+            </div>
+
+        <div id="children4759173-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus4759165-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan4759165-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=4759165&amp;src=contextnavpagetreemode">坑点总结</a>
+        </span>
+            </div>
+
+        <div id="children4759165-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus4759171-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan4759171-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=4759171&amp;src=contextnavpagetreemode">框架手册</a>
+        </span>
+            </div>
+
+        <div id="children4759171-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus10422125-0" class="plugin_pagetree_childtoggle icon icon-section-opened" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan10422125-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=10422125&amp;src=contextnavpagetreemode">新人培训</a>
+        </span>
+            </div>
+
+        <div id="children10422125-0" class="plugin_pagetree_children_container">
+                                                        <ul class="plugin_pagetree_children_list" id="child_ul10422125-0">
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span plugin_pagetree_current" id="childrenspan10422526-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=10422526&amp;src=contextnavpagetreemode">1. Unity3D 基本窗体介绍</a>
+        </span>
+            </div>
+
+        <div id="children10422526-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan10422726-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=10422726&amp;src=contextnavpagetreemode">2. 脚本开发基础</a>
+        </span>
+            </div>
+
+        <div id="children10422726-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan10422802-0">                        <a href="http://wiki.info/display/tech/3.+UGUI?src=contextnavpagetreemode">3. UGUI</a>
+        </span>
+            </div>
+
+        <div id="children10422802-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan10422510-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=10422510&amp;src=contextnavpagetreemode">4. 资源管理</a>
+        </span>
+            </div>
+
+        <div id="children10422510-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan10422971-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=10422971&amp;src=contextnavpagetreemode">5.ToLua#和AoUnity框架</a>
+        </span>
+            </div>
+
+        <div id="children10422971-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan10422128-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=10422128&amp;src=contextnavpagetreemode">6. 计算机图形学&amp;3D游戏开发引言</a>
+        </span>
+            </div>
+
+        <div id="children10422128-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                        </ul>
+                                        </div>
+    </li>
+                                        </ul>
+                                        </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan2917564-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=2917564&amp;src=contextnavpagetreemode">Unity3D+Lua API整理与相关资料</a>
+        </span>
+            </div>
+
+        <div id="children2917564-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus4751655-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan4751655-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=4751655&amp;src=contextnavpagetreemode">Unity3D+Lua Demo</a>
+        </span>
+            </div>
+
+        <div id="children4751655-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus4751692-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan4751692-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=4751692&amp;src=contextnavpagetreemode">Unity3D+Lua 底层组件</a>
+        </span>
+            </div>
+
+        <div id="children4751692-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan2917546-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=2917546&amp;src=contextnavpagetreemode">Unity3D+Lua开发计划</a>
+        </span>
+            </div>
+
+        <div id="children2917546-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                        </ul>
+                                        </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus2294459-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan2294459-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=2294459&amp;src=contextnavpagetreemode">cocos2d解决方案</a>
+        </span>
+            </div>
+
+        <div id="children2294459-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus2918272-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan2918272-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=2918272&amp;src=contextnavpagetreemode">web前端解决方案</a>
+        </span>
+            </div>
+
+        <div id="children2918272-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus4755734-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan4755734-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=4755734&amp;src=contextnavpagetreemode">Flash解决方案</a>
+        </span>
+            </div>
+
+        <div id="children4755734-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus1509151-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan1509151-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=1509151&amp;src=contextnavpagetreemode">其他</a>
+        </span>
+            </div>
+
+        <div id="children1509151-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus4751469-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan4751469-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=4751469&amp;src=contextnavpagetreemode">生产环境监控与报警</a>
+        </span>
+            </div>
+
+        <div id="children4751469-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus2917947-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan2917947-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=2917947&amp;src=contextnavpagetreemode">持续集成与持续交付</a>
+        </span>
+            </div>
+
+        <div id="children2917947-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                        </ul>
+                                        </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan2917830-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=2917830&amp;src=contextnavpagetreemode">公共资源申请</a>
+        </span>
+            </div>
+
+        <div id="children2917830-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus1509297-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan1509297-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=1509297&amp;src=contextnavpagetreemode">技术问题讨论区</a>
+        </span>
+            </div>
+
+        <div id="children1509297-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus1509267-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan1509267-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=1509267&amp;src=contextnavpagetreemode">交流讨论记录</a>
+        </span>
+            </div>
+
+        <div id="children1509267-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus1508853-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan1508853-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=1508853&amp;src=contextnavpagetreemode">进行中</a>
+        </span>
+            </div>
+
+        <div id="children1508853-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus2293982-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="http://wiki.info/pages/viewpage.action?pageId=10422526">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan2293982-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=2293982&amp;src=contextnavpagetreemode">论坛与灌水区</a>
+        </span>
+            </div>
+
+        <div id="children2293982-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan10428416-0">                        <a href="http://wiki.info/pages/viewpage.action?pageId=10428416&amp;src=contextnavpagetreemode">实习生记录页</a>
+        </span>
+            </div>
+
+        <div id="children10428416-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+    </ul>
+</div>
+    </ul>
+
+    <fieldset class="hidden">
+        <input type="hidden" name="treeId" value="">
+        <input type="hidden" name="treeRequestId" value="/plugins/pagetree/naturalchildren.action?decorator=none&amp;excerpt=false&amp;sort=position&amp;reverse=false&amp;disableLinks=false&amp;expandCurrent=true">
+        <input type="hidden" name="treePageId" value="10422526">
+
+        <input type="hidden" name="noRoot" value="false">
+        <input type="hidden" name="rootPageId" value="1507342">
+
+        <input type="hidden" name="rootPage" value="">
+        <input type="hidden" name="startDepth" value="0">
+        <input type="hidden" name="spaceKey" value="tech">
+
+        <input type="hidden" name="i18n-pagetree.loading" value="载入中...">
+        <input type="hidden" name="i18n-pagetree.error.permission" value="无法载入页面树。看来你没有权限查看根页面。">
+        <input type="hidden" name="i18n-pagetree.eeror.general" value="检索页面树时发生问题。有关详细信息，请检查服务器的日志文件。">
+        <input type="hidden" name="loginUrl" value="/login.action?os_destination=%2Fpages%2Fviewpage.action%3FpageId%3D10422526&amp;permissionViolation=true">
+        <input type="hidden" name="mobile" value="false">
+
+                <fieldset class="hidden">
+                                                <input type="hidden" name="ancestorId" value="10422125">
+                                    <input type="hidden" name="ancestorId" value="4759163">
+                                    <input type="hidden" name="ancestorId" value="2917542">
+                                    <input type="hidden" name="ancestorId" value="1508851">
+                                    <input type="hidden" name="ancestorId" value="1507342">
+                                    </fieldset>
+    </fieldset>
+</div>
+</div></div></div><div class="hidden"><a href="http://wiki.info/collector/pages.action?key=tech&amp;src=sidebar" id="space-pages-link" title=" (g ，s)"></a><script type="text/x-template" title="logo-config-content"><h2>空间详情</h2><div class="personal-space-logo-hint">您的个人头像被作为您的个人空间的logo使用。<a href="/users/profile/editmyprofilepicture.action" target="_blank">更改您的个人头像</a>.</div></script></div></div><div class="space-tools-section"><div id="space-tools-menu-additional-items" class="hidden"><div data-label="重排页面" data-class="" data-href="/pages/reorderpages.action?key=tech">重排页面</div></div><button id="space-tools-menu-trigger" class=" aui-dropdown2-trigger aui-button aui-button-subtle tipsy-enabled" aria-controls="space-tools-menu" aria-haspopup="true" role="button" data-aui-trigger="" resolved="" aria-expanded="false" data-collapsed-tooltip="空间管理"><span class="aui-icon aui-icon-small aui-iconfont-configure">设置</span><span class="aui-button-label">空间管理</span><span class="icon aui-icon-dropdown"></span></button><div id="space-tools-menu" class="aui-dropdown2 aui-style-default space-tools-dropdown aui-layer" role="menu" aria-hidden="true" data-aui-alignment="top left" resolved=""><div role="presentation" class="aui-dropdown2-section space-tools-navigation"><div role="group"><ul class="aui-list-truncate" role="presentation"><li role="presentation"><a role="menuitem" tabindex="-1" class="" href="http://wiki.info/spaces/viewspacesummary.action?key=tech&amp;src=spacetools">概览</a></li><li role="presentation"><a role="menuitem" tabindex="-1" class="" href="http://wiki.info/pages/reorderpages.action?key=tech&amp;src=spacetools">内容工具</a></li></ul></div></div><div role="presentation" class="aui-dropdown2-section space-operations"><div role="group"><ul class="aui-list-truncate" role="presentation"><li role="presentation"><a role="menuitem" tabindex="-1" class="" href="http://wiki.info/pages/reorderpages.action?key=tech&amp;src=spacetools">重排页面</a></li></ul></div></div></div><a class="expand-collapse-trigger" data-tooltip="收起侧边栏 ( [ )"></a></div>
+                    
+                        			<div class="ia-splitter-handle tipsy-enabled" data-tooltip="收起侧边栏 ( [ )" original-title=" ([)"><div class="ia-splitter-handle-highlight"></div></div></div>
+    		</div>
+        <!-- \#header -->
+
+            
+    
+        <div id="main" class=" aui-page-panel" style="margin-left: 285px; margin-top: 41px;">
+                        <div id="main-header-placeholder" style="margin: -10px 0px 20px; padding: 0px; height: 70px;"><h1 class="with-breadcrumbs" style="font-family: Arial, sans-serif; font-size: 28px; font-style: normal; font-weight: normal; text-decoration: none solid rgb(51, 51, 51); letter-spacing: normal; text-align: start; padding: 35px 0px 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;">
+                                                <a href="http://wiki.info/pages/viewpage.action?pageId=10422526" style="font-family: Arial, sans-serif; font-size: 28px; font-style: normal; font-weight: normal; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-decoration: none solid rgb(51, 51, 51); letter-spacing: normal; text-align: start;">1. Unity3D 基本窗体介绍</a>
+                                    </h1></div><div id="main-header" style="position: fixed; width: 898px; right: 0px; top: -9px; margin-top: 0px; padding: 10px 40px; z-index: 0;">
+                        
+    <div id="navigation" class="content-navigation view">
+                    <ul class="ajs-menu-bar">
+                                                                    <li class="ajs-button normal">
+
+        
+        
+                                            
+    
+    
+    <a id="editPageLink" href="http://wiki.info/pages/editpage.action?pageId=10422526" rel="nofollow" class="aui-button aui-button-subtle edit" accesskey="e" title="编辑 (e)">
+                <span>
+                            <span class="aui-icon aui-icon-small aui-iconfont-edit"></span>
+                        <u>E</u>编辑
+        </span>    </a>
+</li>
+                                            <li class="ajs-button normal">
+
+        
+            
+                                            
+    
+    
+    <a id="page-favourite" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" rel="nofollow" class="aui-button aui-button-subtle action-page-favourite" accesskey="f" title="收藏 (f)">
+                <span>
+                            <span class="aui-icon aui-icon-small aui-iconfont-unstar"></span>
+                        <u>f</u>收藏
+        </span>    </a>
+</li>
+                                            <li class="ajs-button normal">
+
+        
+            
+                                            
+    
+    
+    <a id="watch-content-button" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" rel="nofollow" class="aui-button aui-button-subtle watch-menu watch-state-initialised" title="关注(w)">
+                <span><span class="aui-icon aui-icon-small aui-iconfont-unwatch"></span> <u> </u> 观看</span>    </a>
+</li>
+                                            <li class="ajs-button normal">
+
+        
+            
+                                            
+    
+    
+    <a id="shareContentLink" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" rel="nofollow" class="aui-button aui-button-subtle share" title="与别人分享此页面 (s或者k)">
+                <span>
+                            <span class="aui-icon aui-icon-small aui-iconfont-share"></span>
+                        <u>S</u>分享
+        </span>    </a>
+</li>
+                    
+        <li class="normal ajs-menu-item">
+        <a id="action-menu-link" class="action aui-dropdown2-trigger-arrowless aui-button aui-button-subtle ajs-menu-title aui-dropdown2-trigger" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" aria-haspopup="true" data-container="#navigation" resolved="" aria-controls="action-menu" aria-expanded="false">
+            <span>
+                                    <span class="aui-icon aui-icon-small aui-iconfont-more"></span>
+                                
+            </span>
+        </a>         <div id="action-menu" class="aui-dropdown2 aui-style-default aui-layer most-right-menu-item" aria-hidden="true" resolved="">
+                            <div class="aui-dropdown2-section">
+                    <ul id="action-menu-primary" class="section-primary first">
+                                                    <li>
+
+    
+        
+                                            
+    
+    
+    <a id="view-attachments-link" href="http://wiki.info/pages/viewpageattachments.action?pageId=10422526" rel="nofollow" class="action-view-attachments" accesskey="t" title="查看附件 (t)">
+                <span>
+                        <u>t</u>附件(11)
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-view-history-link" href="http://wiki.info/pages/viewpreviousversions.action?pageId=10422526" rel="nofollow" class="action-view-history" title="">
+                <span>
+                        页面历史
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-page-permissions-link" href="http://wiki.info/pages/viewinfo.action?pageId=10422526" rel="nofollow" class="action-page-permissions" title="编辑限制">
+                <span>
+                        限制
+        </span>    </a>
+</li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="action-menu-secondary" class="section-secondary">
+                                                    <li>
+
+    
+        
+                                            
+    
+    
+    <a id="view-page-info-link" href="http://wiki.info/pages/viewinfo.action?pageId=10422526" rel="nofollow" class="action-view-info" title="">
+                <span>
+                        页面信息
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+            
+                                            
+    
+    
+    <a id="view-resolved-comments" href="http://wiki.info/pages/viewpage.action?pageId=10422526#" rel="nofollow" class="" title="">
+                <span>已解决评论 (0)</span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="view-in-hierarchy-link" href="http://wiki.info/pages/reorderpages.action?key=tech&amp;openId=10422526#selectedPageInHierarchy" rel="nofollow" class="" title="">
+                <span>
+                        以层级方式查看
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-view-source-link" href="http://wiki.info/plugins/viewsource/viewpagesrc.action?pageId=10422526" rel="nofollow" class="action-view-source popup-link" title="">
+                <span>
+                        查看页面源代码
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-export-pdf-link" href="http://wiki.info/spaces/flyingpdf/pdfpageexport.action?pageId=10422526" rel="nofollow" class="" title="">
+                <span>
+                        导出为PDF
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-export-word-link" href="http://wiki.info/exportword?pageId=10422526" rel="nofollow" class="action-export-word" title="">
+                <span>
+                        导出为Word
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="import-word-doc" href="http://wiki.info/pages/worddav/uploadimport.action?pageId=10422526" rel="nofollow" class="" title="">
+                <span>
+                        Doc文件导入
+        </span>    </a>
+</li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="action-menu-modify" class="section-modify">
+                                                    <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-copy-page-link" href="http://wiki.info/pages/copypage.action?idOfPageToCopy=10422526&amp;spaceKey=tech" rel="nofollow" class="action-copy" title="">
+                <span>
+                        复制
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-move-page-dialog-link" href="http://wiki.info/pages/viewpage.action?pageId=10422526" rel="nofollow" class="action-move" title="">
+                <span>
+                        移动
+        </span>    </a>
+</li>
+                                        </ul>
+                </div>
+                    </div>
+    </li>
+            </ul>
+    </div>
+
+            
+            <div id="title-heading" class="pagetitle with-breadcrumbs">
+                
+                                    <div id="breadcrumb-section">
+                        
+    
+    
+    <ol id="breadcrumbs">
+                                        
+                        
+        <li class="first">
+                        
+                            <span class=""><a href="http://wiki.info/collector/pages.action?key=tech&amp;src=breadcrumbs-collector">页面</a></span>
+                                                                                                            </li><li id="ellipsis" title="显示全部导航项"><span><strong>…</strong></span></li>
+                                                
+                        
+        <li class="hidden-crumb">
+                        
+                            <span class=""><a href="http://wiki.info/pages/viewpage.action?pageId=1507342&amp;src=breadcrumbs-expanded">技术支持 主页</a></span>
+                                                                                                    
+                        
+        </li><li class="hidden-crumb">
+                        
+                            <span class=""><a href="http://wiki.info/pages/viewpage.action?pageId=1508851&amp;src=breadcrumbs-expanded">方案与文档</a></span>
+                                                                                                    
+                        
+        </li><li class="hidden-crumb">
+                        
+                            <span class=""><a href="http://wiki.info/pages/viewpage.action?pageId=2917542&amp;src=breadcrumbs-expanded">Unity3D解决方案</a></span>
+                                                                                                    
+                        
+        </li><li class="hidden-crumb">
+                        
+                            <span class=""><a href="http://wiki.info/display/tech/AoUnity?src=breadcrumbs-expanded">AoUnity</a></span>
+                                                                                    
+                        
+        </li><li>
+                        
+                            <span class=""><a href="http://wiki.info/pages/viewpage.action?pageId=10422125&amp;src=breadcrumbs-parent">新人培训</a></span>
+                                                                    </li></ol>
+
+
+                    </div>
+                
+                
+        <a href="http://wiki.info/pages/viewpage.action?pageId=10422526#page-banner-end" class="assistive">跳到banner的尾部</a>
+<div id="page-banner-start" class="assistive"></div>
+
+                    
+            <div id="page-metadata-banner" style="visibility: visible;"><ul class="banner"><li id="system-content-items" class="noprint"><a href="http://wiki.info/pages/viewpage.action?pageId=10422526" title="未限制" id="content-metadata-page-restrictions" class="aui-icon aui-icon-small aui-iconfont-unlocked"></a><a href="http://wiki.info/pages/viewpageattachments.action?pageId=10422526&amp;metadataLink=true" title="11 个附件" id="content-metadata-attachments" class="aui-icon aui-icon-small aui-iconfont-attachment"></a></li><li class="page-metadata-item noprint has-button" id="content-metadata-jira-wrapper"><a href="http://wiki.info/pages/viewpage.action?pageId=10422526" title="" id="content-metadata-jira" class="aui-button aui-button-subtle content-metadata-jira tipsy-disabled hidden"><span>JIRA链接</span></a></li></ul></div>
+            
+
+<a href="http://wiki.info/pages/viewpage.action?pageId=10422526#page-banner-start" class="assistive">回到标题开始</a>
+<div id="page-banner-end" class="assistive"></div>
+    
+
+                <h1 id="title-text" class="with-breadcrumbs" style="display: none;">
+                                                <a href="http://wiki.info/pages/viewpage.action?pageId=10422526">1. Unity3D 基本窗体介绍</a>
+                                    </h1>
+            </div>
+        </div><!-- \#main-header -->
+        
+        
+
+        <div id="sidebar-container">
+                                                </div><!-- \#sidebar-container -->
+
+        
+    
+
+        
+
+
+
+
+            
+    
+
+                                
+    
+
+    
+    
+        
+    
+    
+                    
+    
+
+    
+
+    
+            
+        
+
+    
+    
+
+    
+            
+        
+
+
+
+    
+<div id="content" class="page view">
+    
+
+
+<div id="action-messages">
+                        </div>
+
+
+
+            <script type="text/x-template" title="searchResultsGrid">
+    <table class="aui">
+        <thead>
+            <tr class="header">
+                <th class="search-result-title">页面标题</th>
+                <th class="search-result-space">空间</th>
+                <th class="search-result-date">更新于</th>
+            </tr>
+        </thead>
+    </table>
+</script>
+<script type="text/x-template" title="searchResultsGridCount">
+    <p class="search-result-count">{0}</p>
+</script>
+<script type="text/x-template" title="searchResultsGridRow">
+    <tr class="search-result">
+        <td class="search-result-title"><a href="{1}" class="content-type-{2}"><span>{0}</span></a></td>
+        <td class="search-result-space"><a class="space" href="/display/{4}/" title="{3}">{3}</a></td>
+        <td class="search-result-date"><span class="date" title="{6}">{5}</span></td>
+    </tr>
+</script>
+        
+    
+            
+
+        
+                            
+    
+
+                    
+
+        
+        <a href="http://wiki.info/pages/viewpage.action?pageId=10422526#page-metadata-end" class="assistive">转至元数据结尾</a>
+<div id="page-metadata-start" class="assistive"></div>
+
+    <div class="page-metadata">
+        <ul>
+            <li class="page-metadata-modification-info">
+                
+        
+    
+        
+    
+        
+            
+            由<span class="author">     <a href="http://wiki.info/display/~zouruizhi" class="url fn confluence-userlink userlink-0" data-username="zouruizhi" title="" data-user-hover-bound="true">邹睿智</a></span>创建, 最后修改于<a class="last-modified" title="查看变更" href="http://wiki.info/pages/diffpagesbyversion.action?pageId=10422526&amp;selectedPageVersions=11&amp;selectedPageVersions=12">七月 12, 2017</a>
+                </li>
+        </ul>
+    </div>
+
+
+<a href="http://wiki.info/pages/viewpage.action?pageId=10422526#page-metadata-start" class="assistive">转至元数据起始</a>
+<div id="page-metadata-end" class="assistive"></div>
+
+        
+                                            
+        <div id="main-content" class="wiki-content">
+                           
+        <p><span style="color: rgb(47,47,47);"><br></span></p><h2 id="id-1.Unity3D基本窗体介绍-主界面"><span style="color: rgb(47,47,47);"><strong><span style="color: rgb(47,47,47);">主界面</span></strong></span></h2><p><span style="color: rgb(47,47,47);"><br></span></p><p><span style="color: rgb(47,47,47);">Unity3D的基本界面非常简单，几个窗口就可以实现几乎全部的编辑功能。主界面如图所示：</span></p><p><span style="color: rgb(47,47,47);"><br></span></p><p><br></p><p><span style="color: rgb(47,47,47);"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/基本窗口.png" data-image-src="http://wiki.info/download/attachments/10422526/%E5%9F%BA%E6%9C%AC%E7%AA%97%E5%8F%A3.png?version=1&amp;modificationDate=1499076585000&amp;api=v2"></span><br></span></p><p><span style="color: rgb(47,47,47);"><strong>场景面板</strong><span style="color: rgb(47,47,47);">：该面板为Unity3D的编辑面板；可以将所有的模型、灯光、以及其他材质对象拖放到当前场景中。构建游戏中所能呈现的景象。</span></span></p><p><span style="color: rgb(47,47,47);"><br><strong>动画面板</strong><span style="color: rgb(47,47,47);">：与场景面板不同，该面板是用来渲染场景面板中的景象的。该面板不能用作编辑，但却可以呈现完整的动画效果。显示的内容取决于场景摄像机的设置。</span></span></p><p><span style="color: rgb(47,47,47);"><br><strong>层次清单栏</strong><span style="color: rgb(47,47,47);">：该面板主要功能是显示放在场景面板中的所有的物体对象。</span></span></p><p><span style="color: rgb(47,47,47);"><br><strong>项目文件栏</strong><span style="color: rgb(47,47,47);">：该面板主要功能是显示该项目文件中的所有资源列表。除了模型、材质、字体等，还包括该项目的各个场景文件。</span></span></p><p><span style="color: rgb(47,47,47);"><br><strong>对象属性栏</strong><span style="color: rgb(47,47,47);">：该面板栏会呈现出任何对象的固有属性，包括三维坐标、旋转量、缩放大小、脚本的变量和对象等等</span></span><span style="color: rgb(47,47,47);">。</span></p><p><span style="color: rgb(47,47,47);"><br></span></p><p><span style="color: rgb(47,47,47);"><strong>场景调整工具</strong><span style="color: rgb(47,47,47);">：可以改变在编辑过程中的场景视角、物体世界坐标和本地坐标的更换、物体的法线中心的位置，以及物体在场景中的坐标位置，缩放大小等等。</span></span></p><p><span style="color: rgb(47,47,47);">&nbsp;</span></p><p><strong><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);">&nbsp; &nbsp; 1. 物体Gzimo控制：</span></span></strong></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><br></span></span></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/Editor-MoveRotateScaleTransform.png" data-image-src="https://docs.unity3d.com/uploads/Main/Editor-MoveRotateScaleTransform.png"></span></span></span></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><br></span></span></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" alt="The Move, Scale, Rotate, and Rect Transform Gizmos" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/MoveRotateScaleTransform.png" data-image-src="https://docs.unity3d.com/uploads/Main/MoveRotateScaleTransform.png"></span></span></span></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);">上图分别对应物体Gizmo 移动，旋转，缩放，平面操作</span></span></p><p><br></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><strong>&nbsp; &nbsp;2.Gizmo 手柄坐标切换工具</strong>：</span></span></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/GizmoDisplayToggles.png" data-image-src="https://docs.unity3d.com/uploads/Main/GizmoDisplayToggles.png"></span><br></span></span></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><br></span></span></p><ul><li>Position 位置：<br><span class="trans" style="color: rgb(85,0,85);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Center将在对象范围的中心位置提供Gizmo。</span><br><span class="trans" style="color: rgb(85,0,85);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Pivot将在一个网格的实际轴点位置放置Gizmo。</span></li><li>Rotation 旋转：<br><span class="trans" style="color: rgb(85,0,85);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Local将相对于对象保持Gizmo的旋转。</span><br><span class="trans" style="color: rgb(85,0,85);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Global将强制Gizmo为世界空间的方向。</span></li></ul><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><br></span></span></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><br></span></span></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><br></span></span></p><h2 id="id-1.Unity3D基本窗体介绍-菜单栏"><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><strong>菜单栏</strong><br></span></span></h2><p><br></p><p><strong>菜单栏</strong>：接下来重点介绍一下菜单栏。</p><p><br></p><p>菜单栏中包含有七个菜单选项：分别是File【文件】、Edit【编辑】、Assets【资源】、GameObject【游戏对象】、Component【组件】、Window【窗口】、Help【帮助】。</p><p><br></p><p>每个菜单选项又有自己的子菜单，总结如下：</p><p><br></p><p><span style="color: rgb(47,47,47);"><strong>1</strong>、<strong>File【文件】</strong></span></p><p><span style="color: rgb(47,47,47);"><strong><br></strong></span></p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/文件.bmp" data-image-src="http://wiki.info/download/attachments/10422526/%E6%96%87%E4%BB%B6.bmp?version=1&amp;modificationDate=1499050923000&amp;api=v2"></span></p><p><span style="color: rgb(47,47,47);"><br></span></p><div class="table-wrap"><table class="wrapped confluenceTable tablesorter tablesorter-default" role="grid"><colgroup><col><col></colgroup><thead><tr role="row" class="tablesorter-headerRow"><th class="confluenceTh tablesorter-header sortableHeader tablesorter-headerUnSorted" data-column="0" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none" aria-label="名称: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner"><strong>名称</strong></div></th><th class="confluenceTh tablesorter-header sortableHeader tablesorter-headerUnSorted" data-column="1" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none" aria-label="说明: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner"><strong>说明</strong></div></th></tr></thead><tbody aria-live="polite" aria-relevant="all"><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">New Scene</span></td><td class="confluenceTd"><span style="color: rgb(47,47,47);">创建新的场景。就像是游戏中的一个一个的场景一样，Unity3D为用户提供了方便的场景管理，用户可以随心所欲的创建出自己想要的场景。然后再把每个场景链接起来组成一个完成的游戏。</span></td></tr><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">Open Scene</span></td><td class="confluenceTd"><span style="color: rgb(47,47,47);">打开一个已经创建的场景</span></td></tr><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">Save Scene</span></td><td class="confluenceTd"><span style="color: rgb(47,47,47);">保存当前场景</span></td></tr><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">Save Scene as</span></td><td class="confluenceTd"><span style="color: rgb(47,47,47);">当前场景另存为</span></td></tr><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">New Project</span></td><td class="confluenceTd"><span style="color: rgb(47,47,47);">新建一个新的项目工程。用户想要制作出自己的游戏，第一步就是创建一个属于这个游戏的工程，这个工程是所有元素的基础。有了工程之后，用户就可以在这个工程里面添加自己的场景。</span></td></tr><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">Open Project</span></td><td class="confluenceTd"><span style="color: rgb(47,47,47);">打开一个已经创建的工程</span></td></tr><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">Save Project</span></td><td class="confluenceTd">保存当前项目</td></tr><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">Build Setting</span></td><td class="confluenceTd"><span style="color: rgb(47,47,47);">项目的编译设置。在编译设置选项里面，用户可以选择游戏所在的平台及对工程中的各个场景之间的管理。可以添加当前的场景加入到工程的编译队列当中。其中的Player Settings选项中可以设置程序的图标，分辨率，启动画面等。</span></td></tr><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">Build &amp; Run</span></td><td class="confluenceTd"><span style="color: rgb(47,47,47);">编译并运行项目</span></td></tr><tr role="row"><td class="confluenceTd"><span style="color: rgb(47,47,47);">Exit</span></td><td class="confluenceTd">退出Unity3D</td></tr><tr role="row"><td class="confluenceTd"><br></td><td class="confluenceTd"><br></td></tr></tbody></table></div><p><span style="color: rgb(47,47,47);"><br></span></p><p><br></p><p><span style="color: rgb(47,47,47);"><span style="color: rgb(47,47,47);"><strong>2</strong>、<strong>Edit【编辑】</strong></span><br></span></p><p><span style="color: rgb(47,47,47);"><br></span></p><p><span style="color: rgb(47,47,47);"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/编辑.bmp" data-image-src="http://wiki.info/download/attachments/10422526/%E7%BC%96%E8%BE%91.bmp?version=1&amp;modificationDate=1499050858000&amp;api=v2"></span><br></span></p><p><span style="color: rgb(47,47,47);"><br></span></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col> <col> </colgroup><tbody><tr><td class="confluenceTd"><strong>名称</strong></td><td class="confluenceTd"><strong>说明</strong></td></tr><tr><td class="confluenceTd">Undo</td><td class="confluenceTd">撤销上一步操作</td></tr><tr><td class="confluenceTd">Redo</td><td class="confluenceTd">重复上一步动作</td></tr><tr><td class="confluenceTd">Cut</td><td class="confluenceTd">剪切</td></tr><tr><td class="confluenceTd">Copy</td><td class="confluenceTd">复制</td></tr><tr><td class="confluenceTd">Paste</td><td class="confluenceTd">粘贴</td></tr><tr><td class="confluenceTd">Duplicate</td><td class="confluenceTd">复制并粘贴</td></tr><tr><td class="confluenceTd">Delete</td><td class="confluenceTd">删除</td></tr><tr><td class="confluenceTd">Frame Selected</td><td class="confluenceTd">选择一个物体后，使用此功能可以把视角调到观察这个选中的物体上</td></tr><tr><td class="confluenceTd">Find</td><td class="confluenceTd">在资源区可以按资源的名称来查找</td></tr><tr><td class="confluenceTd">Select All</td><td class="confluenceTd">可以选中所有资源</td></tr><tr><td class="confluenceTd">Preferences</td><td class="confluenceTd">选项设置。对Unity3D的一些基本设置，如：选用外部的脚本编辑，皮肤，各种颜色的设置。以及一些用户基本的快捷键的设置。</td></tr><tr><td class="confluenceTd">Play</td><td class="confluenceTd">编译并在Unity3D中运行程序</td></tr><tr><td class="confluenceTd">Pause</td><td class="confluenceTd">停止程序</td></tr><tr><td class="confluenceTd">Step</td><td class="confluenceTd">单步执行程序</td></tr><tr><td class="confluenceTd">Load Selection</td><td class="confluenceTd">载入所选</td></tr><tr><td class="confluenceTd">Save Selection</td><td class="confluenceTd">保存所选</td></tr><tr><td class="confluenceTd">Project Settings</td><td class="confluenceTd"><br></td></tr><tr><td colspan="2" class="confluenceTd">项目设置。其中包括输入设置，标签设置（对场景中的元素设置不同类型的标签，方便场景的管理），音频设置，运行的时间的设置，用户设置，物理设置（包括重 力，弹力，摩擦力等），品质设置（这个比较重要，用户在这个选项里面可以设置工程默认的渲染品质），网络管理，编辑器管理等</td></tr><tr><td class="confluenceTd">Render Settings</td><td class="confluenceTd">渲染设置。如果觉得整体画面的色彩质量不尽如人意，可在此处进行调节</td></tr><tr><td class="confluenceTd">Graphics Emulation</td><td class="confluenceTd">图形仿真。主要是配合一些图形加速器的处理</td></tr><tr><td class="confluenceTd">Network Emulation</td><td class="confluenceTd">网络仿真。可以选择相应的网络类型进行仿真</td></tr><tr><td class="confluenceTd">Project Settings</td><td class="confluenceTd">项目设置。其中包括输入设置，标签设置，音频设置，运行的时间的设置，用户设置，物理设置，品质设置，网络管理，编辑器管理等。</td></tr><tr><td class="confluenceTd">Snap Settings</td><td class="confluenceTd">临时环境，或理解为快照设置。</td></tr></tbody></table></div><p><span style="color: rgb(47,47,47);"><br></span></p><p><span style="color: rgb(47,47,47);"><br></span></p><p><span style="color: rgb(47,47,47);"><strong>3、Assets【资源】</strong><br></span></p><p><span style="color: rgb(47,47,47);"><br></span></p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/Assets.bmp" data-image-src="http://wiki.info/download/attachments/10422526/Assets.bmp?version=2&amp;modificationDate=1499052344000&amp;api=v2"></span></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col> <col> </colgroup><tbody><tr><td class="confluenceTd"><strong>名称</strong></td><td class="confluenceTd"><strong>说明</strong></td></tr><tr><td class="confluenceTd">Create</td><td class="confluenceTd">创建功能。可以用来创建各种脚本，动画，材质，字体，贴图，物理材质，GUI皮肤等</td></tr><tr><td class="confluenceTd">Show In Explorer</td><td class="confluenceTd">打开资源所在的目录位置</td></tr><tr><td class="confluenceTd">Open</td><td class="confluenceTd">打开选中文件</td></tr><tr><td class="confluenceTd">Delete</td><td class="confluenceTd">删除选中的资源文件</td></tr><tr><td class="confluenceTd">Import New Asset</td><td class="confluenceTd">导入新的资源</td></tr><tr><td class="confluenceTd">Refresh</td><td class="confluenceTd">刷新，用于导入资源包之后</td></tr><tr><td class="confluenceTd">Import Package</td><td class="confluenceTd">导入资源包。当创建项目工程的时候，有些资源包没有导入进来，在开发过程中有需要使用，这时可以用到导入资源包的功能</td></tr><tr><td class="confluenceTd">Export Package</td><td class="confluenceTd"><span class="inline-comment-marker valid" data-ref="079b2c26-ef65-4066-9a5e-49a711a15390">导出</span>资源包</td></tr><tr><td class="confluenceTd">Select Dependencies</td><td class="confluenceTd">选择依赖项</td></tr><tr><td class="confluenceTd">Reimport All</td><td class="confluenceTd">全部重新导入</td></tr></tbody></table></div><p><br></p><p><br></p><p><strong>4、GameObject【游戏对象】</strong></p><p><strong><br></strong></p><p><span style="color: rgb(47,47,47);"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/GameObject.bmp" data-image-src="http://wiki.info/download/attachments/10422526/GameObject.bmp?version=2&amp;modificationDate=1499052363000&amp;api=v2"></span><br></span></p><p><span style="color: rgb(47,47,47);"><br></span></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col> <col> </colgroup><tbody><tr><td class="confluenceTd"><strong>名称</strong></td><td class="confluenceTd"><strong>说明</strong></td></tr><tr><td class="confluenceTd">Create Empty</td><td class="confluenceTd">创建一个空的游戏对象。可以对这个空的对象添加各种组件，即各种属性。在Component里面会讲到</td></tr><tr><td class="confluenceTd">3D Object</td><td class="confluenceTd">长方体，球，包囊，圆柱体等各类3D物体</td></tr><tr><td class="confluenceTd">2D Object</td><td class="confluenceTd">2D精灵图</td></tr><tr><td class="confluenceTd">Light</td><td class="confluenceTd">点光源，聚光灯，平行光等各类光源</td></tr><tr><td class="confluenceTd">Audio</td><td class="confluenceTd">音频，混音区域</td></tr><tr><td class="confluenceTd">UI</td><td class="confluenceTd">界面文字，界面贴图，UI事件等</td></tr><tr><td class="confluenceTd">Particle System</td><td class="confluenceTd">粒子系统</td></tr><tr><td class="confluenceTd">Camera</td><td class="confluenceTd">摄像机</td></tr><tr><td class="confluenceTd">Center On Children</td><td class="confluenceTd">这个功能是作用在父节点上的，即把父节点的位置移动到子节点的中心位置</td></tr><tr><td class="confluenceTd">Make Parent</td><td class="confluenceTd">选中多个物体后，点击这个功能可以把选中的物体组成父子关系，其中在层级视图中最上面的那个为父节点，其他为这个节点的子节点</td></tr><tr><td class="confluenceTd">Apply Change To Prefab</td><td class="confluenceTd">应用变更为预置</td></tr><tr><td class="confluenceTd">Move To View</td><td class="confluenceTd">这个功能经常用到，把选中的物体移动到当前编辑视角的中心位置，这样就可以快速定位</td></tr><tr><td class="confluenceTd">Align With View</td><td class="confluenceTd">把选中的物体移动到当前编辑视角的中心位置，深度为0，即移动到和视角同一个平面上</td></tr><tr><td class="confluenceTd">Align View To Selected</td><td class="confluenceTd">把编辑视角移动到选中物体的中心位置</td></tr></tbody></table></div><p><br></p><p><br></p><p><strong>5、Component【组件】</strong></p><p><strong><br></strong></p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/Component.bmp" data-image-src="http://wiki.info/download/attachments/10422526/Component.bmp?version=1&amp;modificationDate=1499052745000&amp;api=v2"></span></p><p><br></p><p><br></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col> <col> </colgroup><tbody><tr><td class="confluenceTd"><strong>名称</strong></td><td class="confluenceTd"><strong>说明</strong></td></tr><tr><td class="confluenceTd">Mesh</td><td class="confluenceTd">添加网格属性</td></tr><tr><td class="confluenceTd">Effects</td><td class="confluenceTd">粒子系统及能够造出很棒的流体效果</td></tr><tr><td class="confluenceTd">Physics</td><td class="confluenceTd">物理系统。可以使物体带有对应的物理属性</td></tr><tr><td class="confluenceTd">Navigation</td><td class="confluenceTd">导航网格</td></tr><tr><td class="confluenceTd">Audio</td><td class="confluenceTd">音频。可以创建声音源和声音的听者</td></tr><tr><td class="confluenceTd">Rendering</td><td class="confluenceTd">渲染</td></tr><tr><td class="confluenceTd">Miscellaneous</td><td class="confluenceTd">杂项</td></tr><tr><td class="confluenceTd">Scripts</td><td class="confluenceTd">脚本。Unity内置的一些功能很强大的脚本</td></tr><tr><td class="confluenceTd">Event</td><td class="confluenceTd">事件系统</td></tr><tr><td class="confluenceTd">Network</td><td class="confluenceTd">网络通讯组件</td></tr><tr><td class="confluenceTd">UI&nbsp;</td><td class="confluenceTd">UI组件</td></tr></tbody></table></div><p><br></p><p><br></p><p><strong>6、Window【窗口】</strong></p><p><strong><br></strong></p><p><span style="color: rgb(47,47,47);"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/Window.bmp" data-image-src="http://wiki.info/download/attachments/10422526/Window.bmp?version=1&amp;modificationDate=1499053028000&amp;api=v2"></span></span></p><p><br></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col> <col> </colgroup><tbody><tr><td class="confluenceTd">名称</td><td class="confluenceTd">说明</td></tr><tr><td class="confluenceTd">Next Window</td><td class="confluenceTd">下个窗口</td></tr><tr><td class="confluenceTd">Previous Window</td><td class="confluenceTd">前一个窗口</td></tr><tr><td class="confluenceTd">Layouts</td><td class="confluenceTd">布局</td></tr><tr><td class="confluenceTd">Scene</td><td class="confluenceTd">场景窗口</td></tr><tr><td class="confluenceTd">Game</td><td class="confluenceTd">游戏窗口</td></tr><tr><td class="confluenceTd">Inspector</td><td class="confluenceTd">检视窗口，主要指各个对象的属性，也可称为属性面板</td></tr><tr><td class="confluenceTd">Hierarchy</td><td class="confluenceTd">层次窗口</td></tr><tr><td class="confluenceTd">Project</td><td class="confluenceTd">工程窗口</td></tr><tr><td class="confluenceTd">Animation</td><td class="confluenceTd">动画窗口。用于创建时间动画的面板</td></tr><tr><td class="confluenceTd">Profiler</td><td class="confluenceTd">性能分析窗口</td></tr><tr><td class="confluenceTd">Audio Mixer</td><td class="confluenceTd">混音窗口</td></tr><tr><td class="confluenceTd">Asset Store</td><td class="confluenceTd">资源商店</td></tr><tr><td class="confluenceTd">Animator</td><td class="confluenceTd">动作控制窗口</td></tr><tr><td class="confluenceTd">Animator Parameter</td><td class="confluenceTd">动作参数窗口</td></tr><tr><td class="confluenceTd">Sprite Packer</td><td class="confluenceTd">图集打包窗口</td></tr><tr><td class="confluenceTd">Lighting</td><td class="confluenceTd">全局光窗口</td></tr><tr><td class="confluenceTd">Occlusion Culling</td><td class="confluenceTd">遮挡剔除窗口</td></tr><tr><td class="confluenceTd">Frame Debugger</td><td class="confluenceTd">帧分析窗口（相当重要的渲染分析工具）</td></tr><tr><td class="confluenceTd">Navigation</td><td class="confluenceTd">导航网格窗口</td></tr><tr><td class="confluenceTd">Console</td><td class="confluenceTd">控制台</td></tr></tbody></table></div><p><span style="color: rgb(47,47,47);"><br></span></p><p><span style="color: rgb(47,47,47);"><strong>7、Help【帮助】</strong></span></p><p><span style="color: rgb(47,47,47);"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image confluence-external-resource" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/Help.bmp" data-image-src="http://wiki.info/download/attachments/10422526/Help.bmp?version=1&amp;modificationDate=1499053403000&amp;api=v2"></span></span></p><p><span style="color: rgb(47,47,47);">帮助窗口是一些官网的链接入口，在此不做赘述。</span></p><p><span style="color: rgb(47,47,47);"><br></span></p><p><span style="color: rgb(47,47,47);">Unity3d 基本窗口介绍完毕。 详细信息请参阅官网&nbsp;<a href="https://docs.unity3d.com/Manual/UsingTheEditor.html" class="external-link" rel="nofollow">https://docs.unity3d.com/Manual/UsingTheEditor.html</a></span></p><p><span style="color: rgb(47,47,47);"><br></span></p><p><span style="color: rgb(47,47,47);">课程PPT<span class="confluence-embedded-file-wrapper conf-macro output-inline has-comment-overlay" data-hasbody="false" data-macro-name="view-file"><a class="confluence-embedded-file" href="http://wiki.info/download/attachments/10422526/Unity%E5%9F%BA%E6%9C%AC%E7%AA%97%E4%BD%93%E4%BB%8B%E7%BB%8D.ppt?version=1&amp;modificationDate=1499764729000&amp;api=v2" data-nice-type="PowerPoint Presentation" data-file-src="/download/attachments/10422526/Unity%E5%9F%BA%E6%9C%AC%E7%AA%97%E4%BD%93%E4%BB%8B%E7%BB%8D.ppt?version=1&amp;modificationDate=1499764729000&amp;api=v2" data-linked-resource-id="11763930" data-linked-resource-type="attachment" data-linked-resource-container-id="10422526" data-linked-resource-default-alias="Unity基本窗体介绍.ppt" data-mime-type="application/vnd.ms-powerpoint" data-has-thumbnail="true" data-linked-resource-version="1"><img src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/1" height="250"></a><span class="overlay"><span class="file-type-desc-overlay"><i class="aui-icon aui-icon-small aui-iconfont-file-ppt"></i><span class="content"> 演示</span></span></span></span></span></p><p><span style="color: rgb(47,47,47);">作业：&nbsp;<a href="http://wiki.info/pages/viewpage.action?pageId=11763951">U01 窗体介绍作业</a></span></p>
+
+                
+        
+    
+        </div>
+
+        <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+         <rdf:Description
+    rdf:about="http://wiki.info/pages/viewpage.action?pageId=10422526"
+    dc:identifier="http://wiki.info/pages/viewpage.action?pageId=10422526"
+    dc:title="1. Unity3D 基本窗体介绍"
+    trackback:ping="http://wiki.info/rpc/trackback/10422526"/>
+</rdf:RDF>
+-->
+
+                        
+    
+
+
+
+<div id="likes-and-labels-container"><div id="likes-section" class="no-print"><a href="http://wiki.info/pages/viewpage.action?pageId=10422526" class="like-button"><span class="aui-icon aui-icon-small aui-iconfont-like"></span><span class="like-button-text">赞</span></a><span class="like-summary"><a href="http://wiki.info/pages/viewpage.action?pageId=10422526" class="likes" data-content-id="10422526">4人</a>赞了它</span></div><div id="labels-section" class="pageSection group">
+    <div class="labels-section-content content-column" entityid="10422526" entitytype="page">
+	<div class="labels-content">
+		
+    <ul class="label-list label-list-right  has-pen">
+            <li class="no-labels-message">
+            无标签
+        </li>
+                <li class="labels-edit-container">
+            <a href="http://wiki.info/pages/viewpage.action?pageId=10422526#" class="show-labels-editor" title="编辑标签 (l)">
+                <span class="aui-icon aui-icon-small aui-iconfont-edit-small">编辑标签</span>
+            </a>
+        </li>
+        </ul>
+
+    </div>
+</div>
+</div></div>
+        
+		
+            
+
+
+
+
+            
+        
+
+
+
+
+
+
+
+
+                        
+    
+<div id="comments-section" class="pageSection group">
+        
+    
+
+
+    <div class="bottom-comment-panels comment-panels">
+                
+                    
+    
+
+
+        
+        
+    
+    <div class="quick-comment-container comment add"><p class="comment-user-logo"><a class="userLogoLink userlink-1" data-username="luyuhao" href="http://wiki.info/display/~luyuhao" title="" data-user-hover-bound="true"><img class="userLogo logo" src="./1. Unity3D 基本窗体介绍 - 技术中心 - Confluence_files/user-avatar" alt="用户图标: luyuhao" title=""></a></p><div class="quick-comment-body"><div class="quick-comment-loading-container" style="display:none;"></div><div id="editor-messages"></div><div id="all-messages"></div><form style="display:block;" class="quick-comment-form aui" method="post" name="inlinecommentform" action="http://wiki.info/pages/doaddcomment.action?pageId=10422526"><div title="添加评论 (m)" class="quick-comment-prompt"><span>编写评论...</span></div></form></div></div>
+
+            </div>
+
+            <div id="comments-actions" class="aui-toolbar noprint" style="display: none;">
+            <p class="toolbar-group">
+                <span class="toolbar-item"><a href="http://wiki.info/pages/viewpage.action?pageId=10422526&amp;showComments=true&amp;showCommentArea=true#addcomment" id="add-comment-rte" accesskey="m" class="toolbar-trigger">添加评论</a></span>
+            </p>
+        </div>
+    </div>
+        
+
+
+                
+    
+            
+<div class="ic-sidebar"></div></div>
+
+    
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+    
+<div id="space-tools-web-items" class="hidden">
+                <div data-label="概览" data-href="/spaces/viewspacesummary.action?key=tech">概览</div>
+            <div data-label="内容工具" data-href="/pages/reorderpages.action?key=tech">内容工具</div>
+    </div>
+        
+
+
+
+            </div><!-- \#main -->
+            
+    
+    
+        
+            
+            
+
+<div id="footer" role="contentinfo" style="margin-left: 285px;">
+    <section class="footer-body">
+
+                                                    
+        
+
+        <ul id="poweredby">
+            <li class="noprint">基于 <a href="http://www.atlassian.com/software/confluence" class="hover-footer-link" rel="nofollow">Atlassian Confluence</a> <span id="footer-build-information">6.2.2</span> 技术构建</li>
+            <li class="print-only">由 Atlassian 合流6.2.2 打印</li>
+            <li class="noprint"><a href="https://support.atlassian.com/help/confluence" class="hover-footer-link" rel="nofollow">报告缺陷</a></li>
+            <li class="noprint"><a href="http://www.atlassian.com/about/connected.jsp?s_kwcid=Confluence-stayintouch" class="hover-footer-link" rel="nofollow">Atlassian 新闻</a></li>
+        </ul>
+
+        
+
+        <div id="footer-logo"><a href="http://www.atlassian.com/" rel="nofollow">Atlassian</a></div>
+
+                    
+        
+    </section>
+</div>
+
+    
+</div>
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+    <span style="display:none;" id="confluence-server-performance">{"serverDuration": 238, "requestCorrelationId": "bdc45e2acacb061a"}</span>
+
+
+<script type="text/javascript">
+    AJS.BigPipe = AJS.BigPipe || {};
+    AJS.BigPipe.metrics = AJS.BigPipe.metrics || {};
+    AJS.BigPipe.metrics.pageEnd = typeof window.performance !== "undefined" && typeof window.performance.now === "function"
+                                    ? Math.ceil(window.performance.now()) : 0;
+    AJS.BigPipe.metrics.isBigPipeEnabled = 'false' === 'true';
+</script>
+
+
+    
+</body></html>
